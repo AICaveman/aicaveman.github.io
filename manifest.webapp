@@ -1,8 +1,8 @@
 {
   "version": "1.0.0",
-  "name": "AI Caveman",
+  "name": "AICaveman",
   "launch_path": "/index.html",
-  "description": "AICaveman.co",
+  "description": "aicaveman.com",
   "icons": {
     "128": "/images/touch/icon-128x128.png"
   },
@@ -18,8 +18,8 @@
   },
   "locales": {
     "en": {
-      "name": "AI Caveman",
-      "description": "AICaveman.co"
+      "name": "AICaveman",
+      "description": "aicaveman.com"
     }
   }
 }

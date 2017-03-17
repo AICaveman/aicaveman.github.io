@@ -1,13 +1,13 @@
 {
   "name": "AICaveman",
   "version": "1.0.0",
-  "description": "AICaveman.co",
+  "description": "aicaveman.com",
   "main": "index.js",
   "scripts": {
     "gulp": "gulp",
     "gulp deploy": "gulp deploy"
   },
-  "author": "coolnalu",
+  "author": "AICaveman",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.14.0",

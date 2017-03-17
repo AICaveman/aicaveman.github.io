@@ -1,7 +1,7 @@
-# AI Caveman
+# AICaveman
 
 [![license][license-image]][license-url] 
-> AICaveman.co
+> aicaveman.com
 
 ## Prerequisites
 
@@ -34,4 +34,4 @@ $ npm run gulp deploy
 
 
 [license-image]: https://img.shields.io/badge/license-ISC-blue.svg
-[license-url]: https://github.com/coolnalu/AI Caveman/blob/master/LICENSE
+[license-url]: https://github.com/AICaveman/AICaveman/blob/master/LICENSE
