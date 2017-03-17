@@ -2,10 +2,8 @@
 _site/
 .sass-cache/
 .jekyll-metadata
-scripts/
 Gemfile.lock
 .publish/
-css/
 
 ### Always-ignore files and folders ###
 *.diff
