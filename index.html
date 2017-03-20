@@ -4,6 +4,8 @@ layout: default
 
 <div class="home">
 
+  {% include example.html %}
+
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
@@ -18,7 +20,6 @@ layout: default
     {% endfor %}
   </ul>
 
-  {% include example.html %}
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
