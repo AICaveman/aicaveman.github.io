@@ -14,7 +14,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: normal;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%; }
@@ -58,7 +58,8 @@ li > ol {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 300; }
+  font-weight: normal;
+  font-family: Lora, Serif; }
 
 /**
  * Links
@@ -154,7 +155,6 @@ pre {
   height: 64px;
   font-size: 26px;
   line-height: 64px;
-  letter-spacing: -1px;
   margin-bottom: 0;
   float: left; }
   .site-title, .site-title:visited {
@@ -267,8 +267,6 @@ pre {
 .post-list {
   margin-left: 0;
   list-style: none; }
-  .post-list > li {
-    margin-bottom: 30px; }
 
 .post-meta {
   font-size: 14px;
@@ -286,7 +284,6 @@ pre {
 
 .post-title {
   font-size: 42px;
-  letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 800px) {
     .post-title {

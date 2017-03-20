@@ -15,7 +15,6 @@ $header-height: 64px;
     height: $header-height;
     font-size: 26px;
     line-height: $header-height;
-    letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
 
@@ -172,7 +171,6 @@ $header-height: 64px;
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
     }
 }
 
@@ -195,7 +193,6 @@ $header-height: 64px;
 
 .post-title {
     font-size: 42px;
-    letter-spacing: -1px;
     line-height: 1;
 
     @include media-query($on-laptop) {
