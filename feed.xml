@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI Caveman</title>
-    <description>Cavemen, master A.I. before it masters us!
+    <description>Just some caveman learning deep learning
 </description>
     <link>/</link>
     <atom:link href="/https://nirgn975.github.io/AICaveman/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 20 Mar 2017 19:26:09 -0400</pubDate>
-    <lastBuildDate>Mon, 20 Mar 2017 19:26:09 -0400</lastBuildDate>
+    <pubDate>Mon, 20 Mar 2017 20:12:54 -0400</pubDate>
+    <lastBuildDate>Mon, 20 Mar 2017 20:12:54 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
-        <title>Week 2</title>
+        <title>Issue №2: Training, Validation, Tensorflow</title>
         <description>&lt;p&gt;What does deep learning look like?&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Google tutorial&lt;/li&gt;
@@ -34,16 +34,16 @@
 
 </description>
         <pubDate>Sun, 19 Mar 2017 20:00:00 -0400</pubDate>
-        <link>/https://nirgn975.github.io/AICaveman/progress/2017/03/19/week-2/</link>
-        <guid isPermaLink="true">/https://nirgn975.github.io/AICaveman/progress/2017/03/19/week-2/</guid>
+        <link>/https://nirgn975.github.io/AICaveman/issue/2017/03/19/issue-2/</link>
+        <guid isPermaLink="true">/https://nirgn975.github.io/AICaveman/issue/2017/03/19/issue-2/</guid>
         
         
-        <category>progress</category>
+        <category>issue</category>
         
       </item>
     
       <item>
-        <title>Week 1: l</title>
+        <title>Issue №1: Gradient Descent, Derivative, Matrix</title>
         <description>&lt;p&gt;What does deep learning look like?&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Google tutorial&lt;/li&gt;
@@ -66,11 +66,11 @@
 
 </description>
         <pubDate>Thu, 16 Mar 2017 20:00:00 -0400</pubDate>
-        <link>/https://nirgn975.github.io/AICaveman/progress/2017/03/16/week-1/</link>
-        <guid isPermaLink="true">/https://nirgn975.github.io/AICaveman/progress/2017/03/16/week-1/</guid>
+        <link>/https://nirgn975.github.io/AICaveman/issue/2017/03/16/issue-1/</link>
+        <guid isPermaLink="true">/https://nirgn975.github.io/AICaveman/issue/2017/03/16/issue-1/</guid>
         
         
-        <category>progress</category>
+        <category>issue</category>
         
       </item>
     
