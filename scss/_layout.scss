@@ -1,7 +1,7 @@
 /**
  * Site header
  */
-$header-height: 80px;
+$header-height: 72px;
 
 .site-header {
     min-height: $header-height;
@@ -11,7 +11,7 @@ $header-height: 80px;
 }
 
 .site-title {
-    width: 64px;
+    width: 56px;
     height: $header-height;
     font-size: 26px;
     line-height: $header-height;
@@ -20,7 +20,7 @@ $header-height: 80px;
 }
 
 .title {
-    font-size: 42px;
+    font-size: 36px;
     margin-bottom: 1em;
 }
 
@@ -29,7 +29,7 @@ $header-height: 80px;
     line-height: $header-height;
     text-transform: uppercase;
     font-size: 0.87em;
-    font-weight: bold;
+    font-weight: 600;
     letter-spacing: 0.05em;
 
     .menu-icon {
@@ -197,7 +197,7 @@ $header-height: 80px;
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 36px;
     line-height: 1;
 
     @include media-query($on-laptop) {
