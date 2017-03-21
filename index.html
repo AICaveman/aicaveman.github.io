@@ -1,17 +1,13 @@
 ---
 layout: default
 ---
-
 <div class="home">
-
-  <ul class="post-list">
-    {% for post in site.posts reversed %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
+  <h3 class="label">Latest</h3>
+  {% for post in site.categories.issue limit:1 offset:0 %}
+    <h2 class="title">{{ post.title | escape }}</h2>
+    <article class="post-content">
+      {{ post.content }}
+    </article>
+    <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+  {% endfor %}
 </div>

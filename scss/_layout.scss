@@ -1,7 +1,7 @@
 /**
  * Site header
  */
-$header-height: 64px;
+$header-height: 80px;
 
 .site-header {
     min-height: $header-height;
@@ -11,29 +11,32 @@ $header-height: 64px;
 }
 
 .site-title {
-    width: 48px;
+    width: 64px;
     height: $header-height;
     font-size: 26px;
     line-height: $header-height;
     margin-bottom: 0;
     float: left;
+}
 
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
+.title {
+    font-size: 42px;
+    margin-bottom: 1em;
 }
 
 .site-nav {
     float: right;
     line-height: $header-height;
+    text-transform: uppercase;
+    font-size: 0.87em;
+    font-weight: bold;
+    letter-spacing: 0.05em;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -65,7 +68,7 @@ $header-height: 64px;
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $brand-color;
                 }
             }
         }
@@ -91,8 +94,10 @@ $header-height: 64px;
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    .wrapper {
+        padding: $spacing-unit / 2 0;
+        border-top: 1px solid $grey-color-light;
+    }
 }
 
 .footer-heading {
@@ -108,7 +113,6 @@ $header-height: 64px;
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -120,18 +124,19 @@ $header-height: 64px;
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(40% - (#{$spacing-unit} / 2));
+    width:         calc(40% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(60% - (#{$spacing-unit} / 2));
+    width:         calc(60% - (#{$spacing-unit} / 2));
+    text-align: right;
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -202,6 +207,8 @@ $header-height: 64px;
 
 .post-content {
     margin-bottom: $spacing-unit;
+    max-width: 640px;
+    line-height: 1.4em;
 
     h2 {
         font-size: 32px;

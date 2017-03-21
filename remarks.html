@@ -1,0 +1,15 @@
+---
+layout: default
+title: Remarks
+permalink: /remarks/
+---
+<h1 class="title">Remarks</h1>
+<ul class="post-list">
+  {% for post in site.categories.remark %}
+    <li>
+      <h2>
+      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </h2>
+    </li>
+  {% endfor %}
+</ul>
