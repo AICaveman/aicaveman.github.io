@@ -16,7 +16,7 @@
 title: AI Caveman
 email: ai@takeonepiece.com 
 description: > # this means to ignore newlines until "baseurl:"
-  Cavemen, master A.I. before it masters us!
+  Just some caveman learning deep learning
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nirgn975.github.io/AICaveman" # the base hostname & protocol for your site
 twitter_username: coolnalu
