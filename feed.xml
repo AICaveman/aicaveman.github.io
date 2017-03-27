@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AI Caveman</title>
+    <title>A.I. Caveman</title>
     <description>Just some caveman learning deep learning
 </description>
     <link>/</link>
-    <atom:link href="/https://nirgn975.github.io/AICaveman/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 20 Mar 2017 20:12:54 -0400</pubDate>
-    <lastBuildDate>Mon, 20 Mar 2017 20:12:54 -0400</lastBuildDate>
+    <atom:link href="/http://aicaveman.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 27 Mar 2017 00:06:23 -0400</pubDate>
+    <lastBuildDate>Mon, 27 Mar 2017 00:06:23 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Learning A.I.</title>
+        <description>&lt;p&gt;I am a Software Engineer by trade. But in the era of Artificial Intelligence, I am only a caveman. In other words, I don’t know A.I., but I believe in it. To understand A.I. and our A.I. powered future, I am  Every week I’ll spend 6 - 10 hours watching/reading related materials, and charter the journey as I go. I’ll use this website to&lt;/p&gt;
+</description>
+        <pubDate>Tue, 21 Mar 2017 20:00:00 -0400</pubDate>
+        <link>/http://aicaveman.com/remark/2017/03/21/remark-1/</link>
+        <guid isPermaLink="true">/http://aicaveman.com/remark/2017/03/21/remark-1/</guid>
+        
+        
+        <category>remark</category>
+        
+      </item>
     
       <item>
         <title>Issue №2: Training, Validation, Tensorflow</title>
@@ -34,8 +47,8 @@
 
 </description>
         <pubDate>Sun, 19 Mar 2017 20:00:00 -0400</pubDate>
-        <link>/https://nirgn975.github.io/AICaveman/issue/2017/03/19/issue-2/</link>
-        <guid isPermaLink="true">/https://nirgn975.github.io/AICaveman/issue/2017/03/19/issue-2/</guid>
+        <link>/http://aicaveman.com/issue/2017/03/19/issue-2/</link>
+        <guid isPermaLink="true">/http://aicaveman.com/issue/2017/03/19/issue-2/</guid>
         
         
         <category>issue</category>
@@ -43,11 +56,17 @@
       </item>
     
       <item>
-        <title>Issue №1: Gradient Descent, Derivative, Matrix</title>
-        <description>&lt;p&gt;What does deep learning look like?&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Google tutorial&lt;/li&gt;
-&lt;/ul&gt;
+        <title>Issue № 1: Introduction to Machine Learning + Linear Algebra review</title>
+        <description>&lt;p&gt;Artificial intelligence is where we are headed to. Our goal is to build intelligent machinery or software that not only free us from heavy and dangerous labors, but also don’t require detailed intructions to make every single decision, i.e. they can make the “intelligent” decisions that benefit human. But how do we create A.I.? Machine learning is one of the tools we use to create A.I. And that’s where we/I’ll begin.&lt;/p&gt;
+
+&lt;h2 id=&quot;goal-of-first-week&quot;&gt;Goal of first week&lt;/h2&gt;
+
+&lt;p&gt;Understand how Machine Learning works from a high level. As it turns out, to do ML well, it requires a deep understanding of Linear Algebra. So I’ve bundled these two topics in the first week.&lt;/p&gt;
+
+&lt;h3 id=&quot;introduction-to-machine-learning--neural-networks&quot;&gt;Introduction to Machine Learning + Neural Networks&lt;/h3&gt;
+
+&lt;p&gt;The first
+https://www.coursera.org/learn/neural-networks/home/week/1&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;sin(x)&lt;/script&gt;
 
@@ -66,8 +85,8 @@
 
 </description>
         <pubDate>Thu, 16 Mar 2017 20:00:00 -0400</pubDate>
-        <link>/https://nirgn975.github.io/AICaveman/issue/2017/03/16/issue-1/</link>
-        <guid isPermaLink="true">/https://nirgn975.github.io/AICaveman/issue/2017/03/16/issue-1/</guid>
+        <link>/http://aicaveman.com/issue/2017/03/16/issue-1/</link>
+        <guid isPermaLink="true">/http://aicaveman.com/issue/2017/03/16/issue-1/</guid>
         
         
         <category>issue</category>
